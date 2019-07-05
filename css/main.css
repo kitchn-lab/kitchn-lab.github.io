@@ -1883,7 +1883,7 @@ button.button {
 
 .nav-01__logo_img {
   vertical-align: middle;
-  max-height: 30px;
+  max-height: 50px;
   margin-right: 10px; }
 
 .nav-01__logo_text {
@@ -2289,7 +2289,7 @@ button.button {
   text-align: center; }
 
 .header-04__overlay, .header-16__overlay, .header-17__overlay, .header-55__overlay {
-  background-color: rgba(77, 97, 252, 0.75); }
+  background-color: rgba(82, 113, 255, 0.6); }
 
 .header-18__overlay {
   background-color: rgba(48, 48, 48, 0.8); }
@@ -2319,13 +2319,13 @@ button.button {
   margin-right: auto; }
 
 .header-04__text, .header-16__text, .header-17__text, .header-18__text, .header-55__text {
-  margin: auto auto 60px auto;
+  margin: auto auto 30px auto;
   max-width: 480px; }
 
 .header-04__logos, .header-16__logos, .header-17__logos, .header-18__logos, .header-55__logos {
   margin-top: 170px; }
   .header-04__logos .logos__img, .header-16__logos .logos__img, .header-17__logos .logos__img, .header-18__logos .logos__img, .header-55__logos .logos__img {
-    opacity: 0.3; }
+    opacity: 0.6; }
   @media (max-width: 1366px) {
     .header-04__logos, .header-16__logos, .header-17__logos, .header-18__logos, .header-55__logos {
       margin-top: 120px; } }
