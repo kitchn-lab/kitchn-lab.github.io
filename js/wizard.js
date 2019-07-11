@@ -32,10 +32,9 @@ questionSets.each(function() {
           answer
         );
 
-        if (setHandle == "question123") {
-          if (answer == "No" || answer == "Nein") {
-            skipNextSet(set);
-          } else nextSet(set);
+        // optional skipping of questions
+        if (false) {
+          skipNextSet(set);
         } else {
           nextSet(set);
         }
@@ -78,12 +77,8 @@ $('#questionnaire__form').on('submit', function(event) {
   var form = $(this),
       validationMsg = form.find('.validation-message'),
       email = $('#email').val()
-      random_id = Math.random() * 100000000000000000,
-      now = new Date();
 
   formData['email'] = email;
-  formData['random_id'] = random_id;
-  formData['time_log'] = now;
 
   console.log(formData);
 
@@ -97,7 +92,7 @@ $('#questionnaire__form').on('submit', function(event) {
   toggleLoadingButton(form);
 
   var posting = $.ajax({
-    url: 'https://hooks.zapier.com/hooks/catch/1234567890',
+    url: 'https://hooks.zapier.com/hooks/catch/5117313/oo342tz/',
     type: 'POST',
     data: formData
   });
