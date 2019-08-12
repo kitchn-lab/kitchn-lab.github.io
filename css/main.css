@@ -1751,7 +1751,7 @@ button.button {
   outline: none; }
 
 .slider__item {
-  max-width: 100%;
+  max-width: 70%;
   display: inline-block;
   text-align: center;
   overflow: hidden;
