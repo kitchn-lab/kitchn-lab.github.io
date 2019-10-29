@@ -106,11 +106,11 @@ header {
   z-index: 50; }
 
 a, .link, .links-02__link, .links-04__link, .links-05__link, .links-06__link {
-  color: #4D61FC;
+  color: #4d08a5;
   transition: color 0.2s ease; }
 
 p a:hover, .link:hover, .links-02__link:hover, .links-04__link:hover, .links-05__link:hover, .links-06__link:hover {
-  color: #041ddf; }
+  color: #4d08a5; }
 
 pre {
   line-height: 1.5; }
@@ -158,16 +158,16 @@ pre {
   .heading__accent_word.state-active:before {
     transform: rotate(-1deg) scaleX(1); }
   .heading__accent_word--white:before {
-    background-color: rgba(255, 255, 255, 0.1); }
+    background-color: rgba(77, 8, 165, 0.1); }
   .heading__accent_word--accent:before {
-    background-color: rgba(77, 97, 252, 0.12); }
+    background-color: rgba(77, 8, 165, 0.12); }
 
 .heading__opaque_word {
   opacity: 0.5; }
 
 .subheading {
   text-transform: uppercase;
-  color: #4D61FC;
+  color: #4d08a5;
   font-size: 12px;
   font-weight: 700;
   line-height: 1.4; }
@@ -191,7 +191,7 @@ pre {
   cursor: pointer;
   transition: opacity 0.25s ease; }
   .burger:active {
-    background-color: rgba(255, 255, 255, 0.1); }
+    background-color: rgba(77, 8, 165, 0.1); }
   .burger:before {
     content: "";
     position: absolute;
@@ -204,9 +204,9 @@ pre {
     border-radius: 9999px;
     width: 40px;
     height: 40px;
-    background-color: rgba(223, 234, 254, 0.2); }
+    background-color: rgba(77, 8, 165, 0.2); }
   .burger--black:before {
-    background-color: rgba(48, 48, 48, 0.08); }
+    background-color: rgba(77, 8, 165, 0.08); }
   .burger:hover {
     opacity: 1; }
 
